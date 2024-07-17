@@ -41,7 +41,10 @@ object Buld1 : BuildType({
     steps {
         script {
             id = "simpleRunner"
-            scriptContent = "echo %pass%"
+            scriptContent = """
+                echo %pass%
+                echo %pass2%
+            """.trimIndent()
         }
     }
 })
