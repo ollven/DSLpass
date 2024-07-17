@@ -35,6 +35,7 @@ object Buld1 : BuildType({
 
     params {
         password("pass", "credentialsJSON:36d362dc-4561-43f8-8839-c19e1b199977")
+        password("pass2", "credentialsJSON:88c3cc3b-d925-47ee-a09a-d408f5d82d87")
     }
 
     steps {
