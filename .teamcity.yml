@@ -13,5 +13,3 @@ jobs:
     repositories:
       - https://github.com/ollven/oneTestClass:
           enabled: true
-      - main:
-          enabled: false
