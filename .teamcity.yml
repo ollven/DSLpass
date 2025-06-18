@@ -1,0 +1,17 @@
+jobs:
+  Job1:
+    name: Job 1
+    steps:
+      - type: script
+        script-content: pwd
+        name: step
+  Job2:
+    name: Job 2
+    steps:
+      - type: script
+        script-content: cmd
+    repositories:
+      - https://github.com/ollven/oneTestClass:
+          enabled: true
+      - main:
+          enabled: false
