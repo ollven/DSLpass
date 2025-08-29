@@ -11,7 +11,9 @@ jobs:
     name: Job 2
     steps:
       - type: script
-        script-content: cmd
+        script-content: |-
+          sleep 60
+          cmd
     repositories:
       - https://github.com/ollven/oneTestClass:
           enabled: true
