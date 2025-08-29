@@ -5,6 +5,8 @@ jobs:
       - type: script
         script-content: pwd
         name: step
+    dependencies:
+      - Job2
   Job2:
     name: Job 2
     steps:
@@ -13,5 +15,4 @@ jobs:
     repositories:
       - https://github.com/ollven/oneTestClass:
           enabled: true
-    dependencies:
-      - Job1
+    dependencies: []
